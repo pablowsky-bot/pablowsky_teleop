@@ -1,0 +1,12 @@
+<launch>
+
+  <!-- space mouse drive, publishes on joy topic the motion detected by the hand of the user -->
+  <node pkg="spacenav_node" type="spacenav_node" name="spacenav_node" output="screen">
+    <remap from="spacenav/twist" to="cmd_vel"/>
+    <remap from="spacenav/joy" to="/joy"/>
+    <param name="zero_when_static" type="bool" value="false" />
+    <rosparam param="linear_scale">[1, 1, 1]</rosparam>
+    <rosparam param="angular_scale">[1, 1, 1]</rosparam>
+  </node>
+
+</launch>
