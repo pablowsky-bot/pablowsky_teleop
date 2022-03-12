@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <launch>
 
   <!-- space mouse drive, publishes on joy topic the motion detected by the hand of the user -->
