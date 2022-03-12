@@ -5,8 +5,8 @@
     <remap from="spacenav/twist" to="cmd_vel"/>
     <remap from="spacenav/joy" to="/joy"/>
     <param name="zero_when_static" type="bool" value="false" />
-    <rosparam param="linear_scale">[1, 1, 1]</rosparam>
-    <rosparam param="angular_scale">[1, 1, 1]</rosparam>
+    <rosparam param="linear_scale">[10, 10, 10]</rosparam>
+    <rosparam param="angular_scale">[10, 10, 10]</rosparam>
   </node>
 
 </launch>
