@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>pablovsky_teleop</name>
+  <name>pablowsky_teleop</name>
   <version>0.0.0</version>
-  <description>The pablovsky_teleop package</description>
+  <description>The pablowsky_teleop package</description>
 
   <maintainer email="olima_84@yahoo.com">Oscar Lima</maintainer>
 
