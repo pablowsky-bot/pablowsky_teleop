@@ -9,4 +9,7 @@
     <param name="coalesce_interval" value="0.025" />
   </node>
 
+  <!-- subscribe to joy topic and publishes Twist msg to cmd_vel topic -->
+  <node pkg="pablowsky_teleop" type="gamepad_teleop.py" name="gamepad_teleop" />
+
 </launch>
