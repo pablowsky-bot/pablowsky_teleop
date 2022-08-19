@@ -19,6 +19,7 @@ cmd_vel_msg.angular.z = 0.0
 
 def callback(msg):
     cmd_vel_msg.linear.x = msg.axes[1] * linear_scale
+    cmd_vel_msg.linear.y = msg.axes[0] * linear_scale
     cmd_vel_msg.angular.z = msg.axes[3] * angular_scale
 
 def gamepad_teleop():
